@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    ç<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <div id="calc">
+    <div id="countainer">
+        <img src="imagens/zero.png" alt="" id="zero" onclick="insert('0')">
+        <img src="imagens/um.png" alt="" onclick="insert(1)" id="um">
+        <img src="imagens/dois.png" alt="" onclick="insert(2)" id="dois">
+        <img src="imagens/tres .png" alt="" onclick="insert(3)" id="tres">
+       <img src="imagens/quatro.png" alt=""  onclick="insert(4)" id="quatro">
+        <img src="imagens/cinco.png" alt=""  onclick="insert(5)" id="cinco">
+        <img src="imagens/seis.png" alt=""  onclick="insert(6)" id="seis">
+        <img src="imagens/sete.png" alt=""  onclick="insert(7)" id="sete">
+        <img src="imagens/oito.png" alt=""  onclick="insert(8)" id="oito">
+        <img src="imagens/nove.png" alt=""  onclick="insert(9)" id="nove">
+        <img src="imagens/zero.png" alt=""  onclick="insert(0)" id="zero">
+        <img src="imagens/logaritmo.png" alt="" id="log" onclick="insertlog()">
+       <img src="imagens/Untitled338_20230816072023.png" alt="" id="ponto" onclick="insert('.')">
+    </div>
+       <div id="op">
+        <img src="imagens/limpar.png" alt="" id="limpar" onclick="limpar()" >
+        <img src="imagens/apagar.png" alt="" id="apagar" onclick="apagar()">
+        <img src="imagens/soma.png" alt="soma" id="mais" onclick="insertop(' + ')">
+        <!--<img src="soma.png" alt="soma" id="mais" onclick="soma(' + ')">-->
+        <img src="imagens/subtração.png" alt="subtração" id="menos" onclick="insertop(' - ')">
+        <img src="imagens/divisão.png" alt="divisao" id="dividir" onclick="insertop(' / ')">
+        <img src="imagens/multiplicação.png" alt="multiplicação" id="multiplicar" onclick="insertop(' * ')">
+        <img src="imagens/igual (2).png" alt="igual" id="igual" onclick="calcular()">
+       </div>
+       <div id="resp"></div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+#calc{
+   background-image: url(imagens/Cadernim.png);
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   height: 670px;
+   width: 750px;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   border-radius: 30px;
+}
+
+body{
+   background-image: url('imagens/Background.jpg');
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+
+#um{
+   grid-area: um;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#dois{
+   grid-area: dois;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#tres{
+   grid-area: tres;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#quatro{
+   grid-area: quatro;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#cinco{
+   grid-area: cinco; 
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#seis{
+   grid-area: seis;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#sete{
+   grid-area: sete;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#oito{
+   grid-area: oito;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#nove{
+   grid-area: nove;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#zero{
+   grid-area: zer;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#log{
+   grid-area: xis;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#ponto{
+   grid-area: pont;
+   margin: -25px;
+   width: 150px;
+   height: 150px;
+}
+
+#countainer{
+   position: absolute;
+   top: 27%;
+   left:15%;
+   display: grid;
+   grid-template-areas: 
+   "sete oito nove"
+   "quatro cinco seis"
+   "um dois tres"
+   "xis zer pont"
+   ;
+}
+
+#op{
+   position: absolute;
+   right: 15%;
+   top: 27%;
+   display: grid;
+   grid-template-areas:
+   "limpar apagar"
+   "mais menos"
+   "mult divid"
+   "igual igual"
+   ;
+}
+
+#mais{
+grid-area: mais;
+height: 150px;
+width: 150px;
+margin: -25px;
+}
+
+#menos{
+grid-area: menos; 
+height: 150px;
+width: 150px;
+margin: -25px;
+}
+
+#multiplicar{
+grid-area: mult;   
+height: 150px;
+width: 150px;
+margin: -20px;
+}
+
+#dividir{
+grid-area: divid;  
+height: 150px;
+width: 150px;
+margin: -25px;
+}
+
+#limpar{
+ grid-area: limpar;
+ height: 150px;
+ width: 150px;
+ margin: -25px;
+}
+
+#apagar{
+grid-area: apagar; 
+height: 150px;
+width: 150px;
+margin: -25px;
+}
+
+#igual{
+   grid-area: igual;
+   border: none;
+   height: 200px;
+   width: 200px;
+   margin-top: -65px;
+   margin-left: 10px;
+}
+
+#resp{
+   position: absolute;
+   background-color: rgba(255, 255, 255, 0);
+   color: rgb(255, 255, 255);
+   height: 40px;
+   width: 400px;
+   left: 13.6%;
+   font-size: 38px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   transform: translate(-50%, -50%);
+   top: 19%;
+   left: 50%;
+   padding-left: 7px;
+   padding-top: 7px;
+   border-radius: 10px;
+}
+
+/*
+#um:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#dois:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#tres:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#quatro:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#cinco:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#seis:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#sete:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#oito:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#nove:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#zero:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#log:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#ponto:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#limpar:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#apagar:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#mais:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#menos:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#multiplicar:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#dividir:hover{
+   height: 145px;
+   width: 145px;
+}
+
+#igual:hover{
+   height: 195px;
+   width: 195px;
+}
+*/
